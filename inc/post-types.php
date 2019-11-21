@@ -1,4 +1,5 @@
-// Register Custom Post Type
+<?php
+// Register Radio Call Custom Post Type
 function fienen_cpt_calls() {
 
 	$labels = array(

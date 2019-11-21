@@ -7,3 +7,5 @@
  * Author: Michael Fienen
  * Author URI: https://fienen.com
  */
+
+ require_once('inc/post-types.php');
