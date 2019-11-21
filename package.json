@@ -1,0 +1,19 @@
+{
+  "name": "twd-no-man-s-land-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fienen/TWD-No-Man-s-Land-Tracker.git"
+  },
+  "author": "Michael Fienen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fienen/TWD-No-Man-s-Land-Tracker/issues"
+  },
+  "homepage": "https://github.com/fienen/TWD-No-Man-s-Land-Tracker#readme"
+}
