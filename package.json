@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/fienen/TWD-No-Man-s-Land-Tracker/issues"
   },
-  "homepage": "https://github.com/fienen/TWD-No-Man-s-Land-Tracker#readme"
+  "homepage": "https://github.com/fienen/TWD-No-Man-s-Land-Tracker#readme",
+  "dependencies": {
+    "create-guten-block": "^1.13.0"
+  }
 }
