@@ -1,10 +1,14 @@
 {
-  "name": "twd-no-man-s-land-tracker",
+  "name": "twd-no-man-s-land-tracker/-cgb-guten-block",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "cgb-scripts start",
+    "build": "cgb-scripts build",
+    "eject": "cgb-scripts eject"
+  },
+  "dependencies": {
+    "cgb-scripts": "1.22.0"
   },
   "repository": {
     "type": "git",
@@ -15,8 +19,5 @@
   "bugs": {
     "url": "https://github.com/fienen/TWD-No-Man-s-Land-Tracker/issues"
   },
-  "homepage": "https://github.com/fienen/TWD-No-Man-s-Land-Tracker#readme",
-  "dependencies": {
-    "create-guten-block": "^1.13.0"
-  }
+  "homepage": "https://github.com/fienen/TWD-No-Man-s-Land-Tracker#readme"
 }
