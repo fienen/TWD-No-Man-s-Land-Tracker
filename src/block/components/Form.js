@@ -73,7 +73,7 @@ const survivors = [
         id: 5,
         name: `Shooter`,
         type: 0,
-    }
+    },
     {
         id: 6,
         name: `Warrior`,
@@ -88,7 +88,7 @@ const survivors = [
         id: 8,
         name: `Abraham`,
         type: 1,
-    }
+    },
     {
         id: 9,
         name: `Alpha`,
@@ -237,10 +237,15 @@ const CallForm = () => (
         <label for="callType">Call Type</label>
         <select name="callType">
             <option>Select call type</option>
+            {calls.map(renderCalls)}
         </select>
 
         <button type="submit">Record Call Results</button>
     </form>
-  );
+);
 
-  export default CallForm;
+const renderCalls = opt => (
+    <option value={opt.id}>{opt.name}</option> 
+);
+
+export default CallForm;
