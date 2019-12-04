@@ -1,50 +1,57 @@
-import React from "react";
-
-const calls = [
+const callTypes = [
     {
         id: 0,
         name: `Free (1 Call)`,
-        cost: 0
+        cost: 0,
+        keep: 1
     },
     {
         id: 1,
         name: `Free (5 Call)`,
-        cost: 0
+        cost: 0,
+        keep: 1
     },
     {
         id: 2,
         name: `Get 1 Survivor`,
-        cost: 1
+        cost: 1,
+        keep: 1
     },
     {
         id: 3,
         name: `Choose From 2`,
-        cost: 5
+        cost: 5,
+        keep: 1
     },
     {
         id: 4,
         name: `Choose from 3`,
-        cost: 15
+        cost: 15,
+        keep: 1
     },
     {
         id: 5,
         name: `Choose from 3 (2x)`,
-        cost: 15
+        cost: 15,
+        keep: 1
     },
     {
         id: 6,
         name: `Keep All 3`,
-        cost: 40
+        cost: 40,
+        keep: 3
     },
     {
         id: 7,
         name: `Keep All 3 (2x)`,
-        cost: 40
+        cost: 40,
+        keep: 3
     },
     {
         id: 8,
         name: `Keep All 3 (3x)`,
-        cost: 40
+        cost: 40,
+        keep: 3
     }
 ];
 
@@ -232,20 +239,4 @@ const survivorTypes = {
     2: `Special Hero`
 }
 
-const CallForm = () => (
-    <form>
-        <label for="callType">Call Type</label>
-        <select name="callType">
-            <option>Select call type</option>
-            {calls.map(renderCalls)}
-        </select>
-
-        <button type="submit">Record Call Results</button>
-    </form>
-);
-
-const renderCalls = opt => (
-    <option value={opt.id}>{opt.name}</option> 
-);
-
-export default CallForm;
+export { callTypes, survivors, survivorTypes };
